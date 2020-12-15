@@ -3,7 +3,7 @@ $db_host = 'localhost';
 $db_user = 'root';
 $db_password = 'root';
 $db_db = 'information_schema';
-$db_port = 8889;
+$db_port = 3306;
 $mysqli = new mysqli(
     $db_host,
     $db_user,
@@ -22,4 +22,3 @@ echo 'Host information ' . $mysqli->host_info;
 echo '<br>';
 echo 'Protocol version ' . $mysqli->protocol_version;
 $mysqli->close();
-[2:24]
